@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Pagina-1" id="4ucXO3BAzei0bHxYQ9FR">
-    <mxGraphModel dx="1683" dy="1236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1331" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-1" value="When User receives money from any source" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="70" width="140" height="90" as="geometry" />
+          <mxGeometry x="-120" y="180" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-2" target="XEZs0Gg49_r02Ji0COyd-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-2" value="retrieve all associated user&#39;s channel layer information from the associated event (tournament, team invite, money, newsletter etc)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="570" width="220" height="100" as="geometry" />
+          <mxGeometry x="-160" y="540" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-3" target="XEZs0Gg49_r02Ji0COyd-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-3" value="send the response (notification) to the user&#39;s socket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="770" width="220" height="100" as="geometry" />
+          <mxGeometry x="-160" y="680" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-4" target="XEZs0Gg49_r02Ji0COyd-9">
           <mxGeometry relative="1" as="geometry">
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-4" value="User receives a newsletter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="70" width="170" height="90" as="geometry" />
+          <mxGeometry x="30" y="180" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-5" target="XEZs0Gg49_r02Ji0COyd-9">
           <mxGeometry relative="1" as="geometry">
@@ -36,19 +36,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-5" value="All users in a tournament reach certain time stamps (30/15/5 minutes before start)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="70" width="140" height="90" as="geometry" />
+          <mxGeometry x="-270" y="180" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-6" target="XEZs0Gg49_r02Ji0COyd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-6" value="User receives an invite from a team/for a tournament" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="70" width="130" height="90" as="geometry" />
+          <mxGeometry x="-413" y="180" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-7" target="XEZs0Gg49_r02Ji0COyd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-7" value="&lt;font color=&quot;#fd3f3f&quot;&gt;When user receives messagers (ON HOLD FOR NOW)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="70" width="170" height="90" as="geometry" />
+          <mxGeometry x="210" y="180" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-9" target="XEZs0Gg49_r02Ji0COyd-2">
           <mxGeometry relative="1" as="geometry" />
@@ -56,12 +56,12 @@
         <mxCell id="XEZs0Gg49_r02Ji0COyd-9" value="A notification object is created, it is saved onto the database on an extra EC2 machine (to be created)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="390" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="XEZs0Gg49_r02Ji0COyd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XEZs0Gg49_r02Ji0COyd-27">
+        <mxCell id="XEZs0Gg49_r02Ji0COyd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-21" target="XEZs0Gg49_r02Ji0COyd-27">
           <mxGeometry x="-0.0035" relative="1" as="geometry">
             <mxPoint x="270" y="870" as="targetPoint" />
             <mxPoint x="60" y="1010" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="260" y="1010" />
+              <mxPoint x="230" y="880" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -71,14 +71,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEZs0Gg49_r02Ji0COyd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-21" target="XEZs0Gg49_r02Ji0COyd-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="XEZs0Gg49_r02Ji0COyd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XEZs0Gg49_r02Ji0COyd-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="880" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-21" value="Frontend receives the response, the associated data (text, optional image, optional action (accept, reject))" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="970" width="220" height="100" as="geometry" />
+          <mxGeometry x="-160" y="830" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="XEZs0Gg49_r02Ji0COyd-25" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Rejected: No action happens, socket closes for now&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="760" width="220" height="100" as="geometry" />
+        <mxCell id="XEZs0Gg49_r02Ji0COyd-25" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Rejected: notification updates, socket closes for now&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="680" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XEZs0Gg49_r02Ji0COyd-27" target="XEZs0Gg49_r02Ji0COyd-31">
           <mxGeometry relative="1" as="geometry">
@@ -86,10 +88,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-27" value="&lt;div&gt;Accepted: send a response via current web socket to the backend&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="760" width="220" height="100" as="geometry" />
+          <mxGeometry x="120" y="680" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XEZs0Gg49_r02Ji0COyd-31" value="Backend updates appropriate team/tournament models and updates the notification status (complete)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="570" width="220" height="100" as="geometry" />
+          <mxGeometry x="120" y="540" width="220" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
